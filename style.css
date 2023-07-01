@@ -1,0 +1,295 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f9f9f9;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Navbar styles */
+header {
+	background-color: #333;
+	color: #fff;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+
+nav .logo a {
+	color: #fff;
+	font-size: 2rem;
+	font-weight: bold;
+	text-decoration: none;
+}
+.tar {
+  height: 50px;
+  width: 60px;
+  border-radius: 7px;
+}
+
+nav .menu-toggle {
+	display: none;
+	cursor: pointer;
+}
+
+nav .menu-toggle span {
+	display: block;
+	width: 25px;
+	height: 3px;
+	background-color: #fff;
+	margin: 5px;
+	transition: transform 0.5s ease-in-out;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+
+.navigation li {
+	margin-right: 1rem;
+}
+
+.navigation li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+	nav .menu-toggle {
+		display: block;
+	}
+
+	.navigation {
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		background-color: #333;
+		padding: 1rem;
+	}
+
+	.navigation li {
+		margin-right: 0;
+	}
+
+	.navigation li a {
+		display: block;
+		padding: 1rem 0;
+		border-bottom: 1px solid #fff;
+	}
+
+	.navigation.active {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.navigation.active li {
+		margin-right: 0;
+	}
+
+	.navigation.active li a {
+		font-size: 1.5rem;
+	}
+	
+	.navigation.active li a:hover {
+		color: #ff0;
+	}
+
+	nav .menu-toggle span:first-child {
+		transform: rotate(45deg) translate(7px, 7px);
+	}
+
+	nav .menu-toggle span:nth-child(2) {
+		opacity: 0;
+	}
+
+	nav .menu-toggle span:last-child {
+		transform: rotate(-45deg) translate(7px, -7px);
+	}
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url('https://www.colorado.edu/today/sites/default/files/styles/advanced_article_hero/public/earthfromspace.jpg?itok=r-IAJR3X/1500x800');
+  margin-top: 1px;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero a {
+  display: block;
+  background-color: #ffffff;
+  color: #24292e;
+  font-size: 1.2rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.hero a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Services section styles */
+.services {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.services ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.services li {
+  width: 300px;
+  margin: 1rem;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.services li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.services li h3 {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+.services li p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+/* Contact section styles */
+.contact {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact label {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact button {
+  background-color: #ffffff;
+  color: #24292e;
+  font-size: 1.2rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  nav .nav-links {
+    flex-direction: row;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: #24292e;
+    transform: translateY(-100%);
+    transition: all 0.3s ease;
+  }
+
+  nav .nav-links ul {
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+  }
+
+  nav .nav-links ul li {
+    margin: 0;
+  }
+
+  nav .burger-menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .services li {
