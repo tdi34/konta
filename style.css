@@ -12,6 +12,10 @@ body {
   background-color: #f9f9f9;
 }
 
+audio {
+  display: none;
+}
+
 a {
   text-decoration: none;
   color: #333;
