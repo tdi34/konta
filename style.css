@@ -6,15 +6,16 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Reem Kufi Fun', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background-color: #f9f9f9;
+  background-image: url('bg.jpg');
 }
 
 audio {
-  display: flex;
-  
+  height: 10%;
+  width: 40%;
 }
 
 a {
