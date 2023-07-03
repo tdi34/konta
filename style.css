@@ -335,10 +335,11 @@ footer .container {
 
 footer p {
   margin: 0;
+  color: whitegrey;
 }
 
 .fady {
-  background-image: url("https://spacecampbd.com/wp-content/themes/lgx-event-point/assets/img/slider/11.jpg");
+  background-color: greyblack;
 }
 
 .py {
