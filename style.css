@@ -129,7 +129,7 @@ header .header-right .hamburger div {
 }
 /* Hero section styles */
 .hero {
-  background-image: url('https://www.colorado.edu/today/sites/default/files/styles/advanced_article_hero/public/earthfromspace.jpg?itok=r-IAJR3X/1500x800');
+  <!--background-image: url('https://www.colorado.edu/today/sites/default/files/styles/advanced_article_hero/public/earthfromspace.jpg?itok=r-IAJR3X/1500x800');--!>
   margin-top: 1px;
   background-size: cover;
   background-position: center;
