@@ -10,7 +10,7 @@
   border-shadow: 3px;
   height: 50%px;
   width: 30%;
-  box-shadow: 10px 10px;
+  box-shadow: 10px 10px grey;
 }
 
 body {
@@ -18,13 +18,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background-image: url('bg.jpg');
-  opacity: 0.5;
 }
 
 img {
   height: 100%;
   width: 100%;
-  opacity: 0.5;
 }
 
 .recent {
