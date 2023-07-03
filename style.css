@@ -13,6 +13,11 @@ body {
   background-image: url('bg.jpg');
 }
 
+img {
+  height: 10px;
+  width: 10px;
+}
+
 audio {
   height: 10%;
   width: 40%;
