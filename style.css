@@ -41,6 +41,7 @@ header .header-left nav {
     margin-left: 50px;
 }
 header .header-left nav ul {
+    text-decoration: none;
     display: flex;
 }
 nav ul li a {
@@ -110,6 +111,7 @@ header .header-right .hamburger div {
     }
     header .header-left nav ul {
         display: block;
+        text-decoration: none;
     }
 }
 @media only screen and (max-width: 500px) {
