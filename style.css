@@ -11,9 +11,8 @@
   boarder-radius: 7px;
 }
 
-nav ul li {
+nav ul .lir {
   text-align: right;
-  font-family: 'Reem Kufi Fun', sans-serif;
 }
 
 body {
