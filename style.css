@@ -6,6 +6,8 @@
 }
 
 .logo {
+  height: 45px;
+  width: 45px
   boarder-radius: 7px;
 }
 
