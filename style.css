@@ -13,7 +13,8 @@ body {
 }
 
 audio {
-  display: none;
+  display: flex;
+  
 }
 
 a {
@@ -43,6 +44,9 @@ header .header-left nav {
 header .header-left nav ul {
     text-decoration: none;
     display: flex;
+}
+nav ul li {
+    text-decoration: none;
 }
 nav ul li a {
     display: block;
