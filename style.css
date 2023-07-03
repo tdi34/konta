@@ -11,6 +11,18 @@
   boarder-radius: 7px;
 }
 
+section a {
+  text-decoration: none;
+}
+
+section h3 {
+  text-decoration: none;
+}
+
+section p {
+  text-decoration: none;
+}
+
 nav ul .nav-item {
   text-align: right;
 }
