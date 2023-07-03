@@ -22,117 +22,39 @@ a {
 }
 
 /* Navbar styles */
-header {
-	background-color: #333;
-	color: #fff;
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
 }
 
-nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 1rem;
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-nav .logo a {
-	color: #fff;
-	font-size: 2rem;
-	font-weight: bold;
-	text-decoration: none;
-}
-.tar {
-  height: 50px;
-  width: 60px;
-  border-radius: 7px;
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
 }
 
-nav .menu-toggle {
-	display: none;
-	cursor: pointer;
+/* Current/active navbar link */
+.active {
+  background-color: #04AA6D;
 }
 
-nav .menu-toggle span {
-	display: block;
-	width: 25px;
-	height: 3px;
-	background-color: #fff;
-	margin: 5px;
-	transition: transform 0.5s ease-in-out;
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
 }
-
-.navigation {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	list-style: none;
-}
-
-.navigation li {
-	margin-right: 1rem;
-}
-
-.navigation li a {
-	color: #fff;
-	text-decoration: none;
-	font-size: 1.2rem;
-	font-weight: bold;
-}
-
-@media only screen and (max-width: 768px) {
-	nav .menu-toggle {
-		display: block;
-	}
-
-	.navigation {
-		display: none;
-		position: absolute;
-		top: 100%;
-		left: 0;
-		width: 100%;
-		background-color: #333;
-		padding: 1rem;
-	}
-
-	.navigation li {
-		margin-right: 0;
-	}
-
-	.navigation li a {
-		display: block;
-		padding: 1rem 0;
-		border-bottom: 1px solid #fff;
-	}
-
-	.navigation.active {
-		display: flex;
-		flex-direction: column;
-	}
-	
-	.navigation.active li {
-		margin-right: 0;
-	}
-
-	.navigation.active li a {
-		font-size: 1.5rem;
-	}
-	
-	.navigation.active li a:hover {
-		color: #ff0;
-	}
-
-	nav .menu-toggle span:first-child {
-		transform: rotate(45deg) translate(7px, 7px);
-	}
-
-	nav .menu-toggle span:nth-child(2) {
-		opacity: 0;
-	}
-
-	nav .menu-toggle span:last-child {
-		transform: rotate(-45deg) translate(7px, -7px);
-	}
-}
-
 /* Hero section styles */
 .hero {
   background-image: url('https://www.colorado.edu/today/sites/default/files/styles/advanced_article_hero/public/earthfromspace.jpg?itok=r-IAJR3X/1500x800');
