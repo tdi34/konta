@@ -21,15 +21,15 @@ body {
 }
 
 .logo {
-  height: 10px;
-  width: 10px;
+  height: 30px;
+  width: 30px;
   border-radius: 3px;
 }
 
 .recent {
   opacity: 1;
-  height: 400px;
-  width: 250px;
+  height: 200px;
+  width: 100px;
 }
 
 audio {
