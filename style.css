@@ -68,6 +68,7 @@ a {
 /* Hero section styles */
 .hero {
   background-image: url('bg2.jpeg');
+  height: 200px;
   margin-top: 1px;
   background-size: cover;
   background-position: center;
