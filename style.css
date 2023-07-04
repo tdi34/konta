@@ -160,7 +160,7 @@ a {
 /* Contact section styles */
 .contact {
   padding: 50px;
-  text-align: right;
+  text-align: center;
 }
 
 .contact h2 {
@@ -171,7 +171,7 @@ a {
 .contact form {
   display: flex;
   flex-direction: column;
-  align-items: right;
+  align-items: center;
 }
 
 .contact label {
@@ -186,8 +186,8 @@ a {
   margin-top: 0.5rem;
   border: 1px solid black;
   border-radius: 7px;
-  text-alignment: right;
-  alignment-items: right;
+  text-alignment: center;
+  alignment-items: center;
 }
 
 .contact button {
@@ -200,6 +200,8 @@ a {
   margin-top: 1rem;
   cursor: pointer;
   transition: all 0.3s ease;
+  height: 15px;
+  width: 7px;
   margin-bottom: 30px;
   padding-bottom: 30px;
 }
