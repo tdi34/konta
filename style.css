@@ -200,10 +200,10 @@ a {
   margin-top: 1rem;
   cursor: pointer;
   transition: all 0.3s ease;
-  height: 15px;
-  width: 7px;
-  margin-bottom: 30px;
-  padding-bottom: 30px;
+  height: 40px;
+  width: 12px;
+  margin-bottom: 60px;
+  padding-bottom: 70px;
 }
 
 .contact button:hover {
