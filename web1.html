@@ -205,17 +205,7 @@
     </form>
   </section>
  </center>
-  // Get the button element
-const button = document.querySelector("button[type='submit']");
-
-// Set the onclick event handler for the button
-button.onclick = function() {
-  // Get the URL of the page that you want to redirect to
-  const url = "email.html";
-
-  // Redirect the user to the page
-  window.location.href = url;
-};
+  
   <footer class="fady">
       <section class="fady">
   	<div class="fady">
@@ -225,6 +215,18 @@ button.onclick = function() {
       </section>
   </footer>
 
-  <script src="main.js"></script>
+  <script>
+	  // Get the button element
+		const button = document.querySelector("button[type='submit']");
+
+	// Set the onclick event handler for the button
+		button.onclick = function() {
+ 	// Get the URL of the page that you want to redirect to
+  			const url = "email.html";
+
+  	// Redirect the user to the page
+  			window.location.href = url;
+	};
+  </script>
 </body>
 </html>
