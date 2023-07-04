@@ -11,6 +11,12 @@
   boarder-radius: 7px;
 }
 
+.articles {
+  background-color: white;
+  text-alignment: center;
+  border-radius: 7px;
+}
+
 section a {
   text-decoration: none;
 }
