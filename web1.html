@@ -201,10 +201,21 @@
       <input type="email" id="email" name="email" required>
       <label for="message">:الرسالة(ما تريد أن تكتبه)</label>
       <textarea id="message" name="message" rows="5" required></textarea>
-      <button type="submit"><a href="email.html">إرسال</a></button>
+      <button type="submit"><a href="email.html"></a>إرسال</button>
     </form>
   </section>
  </center>
+  // Get the button element
+const button = document.querySelector("button[type='submit']");
+
+// Set the onclick event handler for the button
+button.onclick = function() {
+  // Get the URL of the page that you want to redirect to
+  const url = "email.html";
+
+  // Redirect the user to the page
+  window.location.href = url;
+};
   <footer class="fady">
       <section class="fady">
   	<div class="fady">
