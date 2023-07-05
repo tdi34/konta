@@ -194,7 +194,7 @@
  <center>
   <section class="contact">
     <h2>تواصل معنا</h2>
-    <form action="#">
+    <form action="#" onsubmit="sendEmail()">
       <label for="name">:الاسم</label>
       <input type="text" id="name" name="name" required>
       <label for="email">:الإيميل</label>
@@ -205,7 +205,24 @@
     </form>
   </section>
  </center>
-  
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+  function sendEmail(){
+    Email.send({
+      Host: "smtp.gmail.com",
+      Username: "pubgledo@gmail.com",
+      Password: "pubgledo643",
+      To: "pubgledo@gmail.com",
+      From: document.getElementById("email").value,
+      Subject: "تقرير",
+      Body: "This the body"
+    }).then(
+    message => alert(message)
+    );
+  }
+</script>
+	
   <footer class="fady">
       <section class="fady">
   	<div class="fady">
