@@ -130,7 +130,9 @@ a {
   align-items: center;
   text-align: center;
   color: #ffffff;
-  height: 200px;
+  background-image: url("OTO.png");
+  height: 100%
+  width: 100%
 }
 
 .hero h1 {
