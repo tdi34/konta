@@ -120,7 +120,7 @@ a {
 
 /* Hero section styles */
 .hero {
-  background-image: url('bg2.jpeg');
+  background-color: grey;
   margin-top: 1px;
   background-size: cover;
   background-position: center;
