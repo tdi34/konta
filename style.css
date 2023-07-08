@@ -96,6 +96,8 @@ body {
   line-height: 1.5;
   text-alignment: right;
   background-color: lightgrey;
+  background-image: url("Website backgroung.png");
+  background-size: cover;
 }
 
 .logo {
