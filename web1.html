@@ -263,5 +263,42 @@
   			window.location.href = url;
 	};
   </script>
+  <script>
+function showAlert() {
+  var alert = document.createElement("div");
+  alert.innerHTML = "مرحبًا بكم فى مجلة لوجوس";
+  alert.style.borderRadius = "7px";
+  alert.style.opacity = 0;
+  alert.style.position = "fixed";
+  alert.style.top = "0";
+  alert.style.left = "0";
+  alert.style.width = "100%";
+  alert.style.height = "100%";
+  alert.style.zIndex = "1000";
+
+  document.body.appendChild(alert);
+
+  // Fade in the alert
+  var interval = setInterval(function() {
+    alert.style.opacity += 0.01;
+    if (alert.style.opacity >= 1) {
+      clearInterval(interval);
+    }
+  }, 10);
+
+  // Fade out the alert after 2 seconds
+  setTimeout(function() {
+    var interval = setInterval(function() {
+      alert.style.opacity -= 0.01;
+      if (alert.style.opacity <= 0) {
+        document.body.removeChild(alert);
+        clearInterval(interval);
+      }
+    }, 10);
+  }, 2000);
+}
+
+window.onload = showAlert;
+</script>
 </body>
 </html>
