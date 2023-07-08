@@ -7,7 +7,7 @@
 
 .logo {
   height: 30px;
-  width: 30px
+  width: 30px;
   boarder-radius: 7px;
 }
 
@@ -130,7 +130,7 @@ a {
   align-items: center;
   text-align: center;
   color: #ffffff;
-  background-image: url("مجلة قبطية يصدرها الشباب.png");
+  background-image: url("مجلة قبطية أرثوذوكسية يصدرها الشباب.png");
   height: 100%
   width: 100%
 }
