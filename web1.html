@@ -224,6 +224,22 @@
   </section>
  </center>
 
+<div class="alert">
+  <span class="closebtn" onclick="closeAlert()">&times;</span>
+  <p>+ مرحبًا بكم فى مجلة الكلمة +</p>
+</div>
+<script>
+	window.onload = function() {
+	var alertBox = document.querySelector(".alert");
+	alertBox.classList.add("show");
+	}
+	
+	function closeAlert() {
+	var alertBox = document.querySelector(".alert");
+	alertBox.classList.remove("show");
+	}
+</script>
+
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script>
   function sendEmail(){
