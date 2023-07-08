@@ -216,22 +216,26 @@ a {
 .contact {
   padding: 50px;
   text-align: center;
+  font-family: 'El Messiri', sans-serif;
 }
 
 .contact h2 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
+  font-family: 'El Messiri', sans-serif;
 }
 
 .contact form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'El Messiri', sans-serif;
 }
 
 .contact label {
   font-size: 1.2rem;
   margin-top: 1rem;
+  font-family: 'El Messiri', sans-serif;
 }
 
 .contact input,
@@ -243,6 +247,7 @@ a {
   border-radius: 7px;
   text-alignment: center;
   alignment-items: center;
+  font-family: 'El Messiri', sans-serif;
 }
 
 .contact button {
@@ -257,6 +262,7 @@ a {
   transition: all 0.3s ease;
   margin-bottom: 100px;
   padding-bottom: 100px;
+  font-family: 'El Messiri', sans-serif;
 }
 
 .contact button:hover {
