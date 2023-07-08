@@ -5,6 +5,39 @@
   padding: 0;
 }
 
+.alert {
+	padding: 20px;
+	background-color: #f44336;
+	color: white;
+	border-radius: 7px;
+	transition: opacity 2s ease-in-out;
+	opacity: 0;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	}
+	
+	.alert.show {
+	opacity: 1;
+	}
+	
+	.closebtn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+  height:100%;
+  width: 100%;
+	cursor: pointer;
+	transition: 4s;
+	}
+	
+	.closebtn:hover {
+	color: black;
+	}
+
 .logo {
   height: 50px;
   width: 50px;
