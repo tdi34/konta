@@ -114,6 +114,7 @@ body {
 audio {
   height: 10%;
   width: 40%;
+  display: fixed;
 }
 
 a {
